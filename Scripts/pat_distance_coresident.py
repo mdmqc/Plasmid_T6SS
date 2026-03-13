@@ -21,7 +21,7 @@ Outputs:
 
 file1 = "Plasmid_Chr_TssC_HPC_99id_100cov.csv"
 file2 = "Patristic_Distance_TssC_Matrix.tsv" 
-file3 = "Co-resident_Chr_Plasmids.csv"
+file3 = "Co-resident_RS212_CHR_Plasmids.csv"
 file4 = "Minimal_patristic_distance_CHR-PLA.csv"
 
 OUTPUT1 = "Patristic_distances_coresident_Plasmid_Chr_TssC.csv"

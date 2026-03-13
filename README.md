@@ -1,4 +1,4 @@
-# Plasmids drive the dissemination and diversification of Type VI Secretion Systems
+# Plasmids serve as vehicles and reservoirs of Type VI Secretion Systems
 
 This study used a comprehensive bioinformatics approach to generate a systematic, genome-wide inventory of T6SSs across bacterial genomes, evaluating their prevalence, diversity, and evolutionary relationships between plasmids and chromosomes.
 
@@ -6,6 +6,8 @@ The bacterial genomes were downloaded from NCBI RefSeq212 database (June 2022) a
 
 This repository contains:
 - The [data](data) generated in the study:
+    - RS212 plasmid dataset used in this study with GC content, T6SS/orphan island presence and mobility by conjugation
+    - RS212 chromosomal dataset used in this study with GC content
     - Co-resident chromosomal and plasmid genomes in the same bacterial hosts
     - Representative TssC proteins at 99% identity, 100% coverage used in the phylogenetic tree
     - Chromosomal and plasmid TssC phylogenetic tree file
@@ -15,6 +17,7 @@ This repository contains:
     - Python script to parse `hmmscan --domtblout` or `hmmsearch --domtblout` results 
     - Python script to parse `blastp -outfmt "6 std qlen slen"` results 
     - Python scripts to parse the matrix of patristic distances calculated from the TssC phylogenetic tree
+    - Python scripts to calculate GC content of genomes using Biopython and compare co-resident plasmids - chromosomes
 
 
 For detailed information on the methods used and other supplementary material, please find a preprint version on [BioRxiv](https://www.biorxiv.org/content/10.64898/2025.12.03.692189v1).
